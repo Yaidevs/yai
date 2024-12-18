@@ -1,0 +1,54 @@
+.accordion-list li.panel {
+  border: 1px solid #dde5e8;
+  border-radius: 10px;
+  padding: 15px 20px;
+  color: #000;
+  transition: ease 0.3s;
+}
+.accordion-list li + li {
+  margin-top: 10px;
+}
+.accordion-list li.panel h3.panel-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion-list li.panel .answer {
+  margin-top: 10px;
+}
+.accordion-list li.panel.active {
+  background-color: #1f18df;
+  color: #fff;
+}
+.accordion-list li.panel .answer .panel-body {
+  font-size: 18px;
+}
+.accordion-list li.panel h3.panel-title svg {
+  color: #000;
+  fill: #000;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  margin-left: 10px;
+  transform: rotate(180deg);
+  transition: ease 0.5s;
+}
+.accordion-list li.panel.active h3.panel-title svg {
+  color: #fff;
+  fill: #fff;
+  transform: rotate(0deg);
+}
+.faq-box .panel-body ul li {
+  list-style: inside;
+}
+body.margin-bottom {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .accordion-list li.panel h3.panel-title {
+    font-size: 15px;
+  }
+}

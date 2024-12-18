@@ -1,0 +1,46 @@
+.keyfetures-owl {
+    display: flex;
+    overflow-x: scroll; /* Enable horizontal scroll */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 16px; /* Space between items */
+    padding: 20px 0; /* Padding for aesthetics */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on touch devices */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer */
+  }
+  
+  .keyfetures-owl::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers */
+  }
+  
+  .keyfetures-owl .item {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+    width: 300px; /* Set a fixed width for each item */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer; /* Cursor pointer on hover */
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .keyfetures-owl .item:hover {
+    transform: scale(1.05); /* Scale item on hover */
+  }
+  
+  .keyfetures-owl .item figure {
+    padding: 16px;
+  }
+  
+  .keyfetures-owl .item h3 {
+    margin: 12px 0 8px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .keyfetures-owl .item p {
+    font-size: 14px;
+    color: #666;
+  }
+  

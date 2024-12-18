@@ -1,0 +1,646 @@
+.banner-req-out {
+  display: block;
+}
+.PortfolioBanner1 {
+  background: url(../images/2021-new/portfolio/portfolioBanner.png) no-repeat;
+  background-size: cover;
+  margin: 0 70px;
+  height: 385px;
+}
+.PortfolioBanner1 .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.view-more-btn {
+  width: 100%;
+}
+.PortfolioBanner1 .container article {
+  width: 100%;
+  margin-top: 66px;
+  text-align: center;
+}
+.PortfolioBanner1 .container article h1 {
+  margin-bottom: 10px;
+  font-size: 45px;
+  font-family: "Cambria-Bold";
+  text-align: center;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.PortfolioBanner1 .container article h3 {
+  font-size: 18px;
+  font-family: "OpenSans-Regular";
+  text-align: center;
+  color: #000;
+  line-height: 26px;
+  font-weight: 400;
+}
+.show-tick {
+  background: #fff;
+  height: 45px;
+  border-radius: 45px;
+}
+.show-tick button {
+  background: none;
+  border: none;
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+}
+.industry-btn-box .submitBtn {
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 50px;
+  margin-left: -46px;
+  border: none;
+  background: transparent;
+  position: relative;
+  z-index: 9;
+}
+.show-tick .dropdown-menu {
+  height: 200px;
+  width: 300px;
+  background: #fff;
+  overflow: auto;
+  display: none;
+}
+.show-tick .dropdown-menu.show {
+  display: block;
+}
+.show-tick .dropdown-menu.show li a {
+  display: block;
+  font-size: 15px;
+  color: #333;
+  padding: 10px 15px;
+}
+.PortFilter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.PortFilter .row .col-md-3 > .btn-group {
+  width: 100%;
+}
+.PortFilter .row .col-md-3 > .btn-group .dropdown-toggle {
+  border-radius: 30px;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+}
+.PortFilter .row .col-md-3 > .btn-group .dropdown-menu {
+  margin-top: -1px;
+  border-radius: 0;
+  border: 0;
+}
+.PortFilter .PortSearchbtn button {
+  background: #ebe3e7;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+  min-width: 152px;
+  font-size: 16px;
+  color: #9b9b9b;
+  text-transform: uppercase;
+  font-family: "OpenSans-Bold";
+}
+.PortSearchbtn {
+  margin-right: 10px;
+}
+.PortFilter .PortSearchbtn button.active {
+  background: #e34690;
+  color: #fff;
+}
+.industry-btn-box {
+  margin-top: -24px;
+  min-width: 220px;
+}
+.industry-btn-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #9b9b9b;
+  font-size: 14px;
+}
+.industry-btn-box .btn {
+  background: #ebe3e7;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+  min-width: 152px;
+  font-size: 16px;
+  color: #9b9b9b;
+  text-transform: uppercase;
+  font-family: "OpenSans-Bold";
+  padding-left: 10px;
+}
+.filter-option-inner-inner {
+  font-size: 16px;
+  color: #9b9b9b;
+  text-transform: uppercase;
+  font-family: "OpenSans-Bold";
+}
+.PortFilter .row .col-md-3 > label {
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.PortFilter .row .col-md-12 input {
+  height: 60px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  padding: 0 30px;
+  border: 0;
+  color: #fff;
+}
+.PortFilter .row .col-md-12 input:focus {
+  background: #fff;
+  color: #333;
+}
+.PortFilter .btn-group .dropdown-menu > li > a {
+  padding: 10px;
+  background: url(../images/home-portfolio/check.png) #fff no-repeat;
+  background-position-x: -100px;
+  background-size: 30px 30px;
+}
+.PortFilter .btn-group .dropdown-menu > li.selected > a {
+  background: url(../images/home-portfolio/check.png) no-repeat;
+  background-position: right center;
+  background-size: 30px 30px;
+}
+.Port-style1-page .p-frame-text {
+  height: 620px;
+}
+.Port-style1-page ul li {
+  position: relative;
+}
+.Port-style1-page ul li .p-bg-frame {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.Port-style1-page ul li .p-bg-frame img {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.Port-style1-page ul li .container {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1300px;
+  width: auto;
+}
+.Port-style1-page ul li .p-frame-img,
+.Port-style1-page ul li .p-frame-text {
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.Port-style1-page ul li .p-frame-img img.img-style1 {
+  position: absolute;
+  bottom: 0;
+  max-width: 700px;
+}
+.Port-style1-page ul li .p-frame-text article {
+  max-width: 450px;
+}
+.p-frame-text article h3 {
+  color: #fff;
+  font-size: 16px;
+  font-family: Proxima-Light;
+  margin-bottom: 20px;
+}
+.p-frame-text article p {
+  color: #fff;
+}
+.p-frame-text article h2 {
+  color: #fff;
+  font-weight: 400;
+  font-family: Proxima-Bold;
+  font-size: 40px;
+}
+.Port-style1-page ul li .p-frame-text {
+  padding: 0 60px;
+}
+.Port-style2-page ul li article {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.Port-style2-page ul {
+  margin-right: -10px;
+  margin-left: -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Port-style2-page ul:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.Port-style2-page ul li {
+  width: 33.33%;
+  flex: 0 0 33.3%;
+  display: flex;
+  max-width: 33.3%;
+  padding: 10px;
+}
+.Port-style2-page {
+  background: #fff;
+  padding: 80px 0;
+}
+.Port-style2-page ul li .Port-style2-box1 {
+  position: relative;
+}
+.Port-style2-page ul li .Port-style2-box1 figcaption img {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.Port-style2-page ul li .Port-style2-box1 figcaption {
+  text-align: left;
+  height: 355px;
+  position: relative;
+  top: 0;
+}
+.Port-style2-page ul li .Port-style2-box1 figure {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Port-style2-page ul li .Port-style2-box1 figure.AppLogo img {
+  width: 100px;
+}
+.Port-style2-page ul li .Port-style2-box1 figure span {
+  font-size: 14px;
+  font-family: Proxima-Bold;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 10px;
+  display: block;
+}
+.Port-style2-page ul li .Port-style2-overlay {
+  padding: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  transform: scale(1);
+  display: -ms-flexbox;
+  display: -moz-flexbox;
+}
+.Port-style2-page ul li .Port-style2-overlay a {
+  cursor: pointer;
+}
+.Port-style2-page ul li .Port-style2-overlay > div {
+  width: 100%;
+}
+.Port-style2-page ul li article:hover .Port-style2-overlay {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.Port-style2-page ul li .Port-style2-overlay p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+.Port-style2-page ul li .Port-style2-overlay p:empty {
+  display: none;
+}
+.Port-style2-page ul li .Port-style2-overlay .dev-btn {
+  margin-top: 30px;
+}
+.thumbImageBox {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 20px auto;
+  position: relative;
+  top: 0;
+}
+.thumbImageBox img {
+  object-fit: contain;
+}
+.modal-header .close {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  margin: 0 0 0 auto;
+  border: none;
+  padding: 0;
+  opacity: 1;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 9;
+}
+.modal-header .close span {
+  position: relative;
+  top: 0;
+}
+.modal-header .close:hover {
+  background: #000;
+  color: #fff;
+}
+.FullScreenPop .modal-header .close {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  margin: 0 0 0 auto;
+  border: none;
+  padding: 0;
+  font-weight: 700;
+  font-size: 21px;
+  opacity: 1;
+}
+.FullScreenPop .modal-header .close span {
+  position: relative;
+  top: 0;
+}
+.FullScreenPop .modal-header .close span.sr-only {
+  display: none;
+}
+.FullScreenPop .modal-header .close:hover {
+  background: #000;
+  color: #fff;
+}
+.modal {
+  display: none;
+}
+.FullScreenPop .modal .modal-dialog {
+  z-index: 9999;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.FullScreenPop .modal .modal-content {
+  height: 100%;
+  border-radius: 0;
+}
+.FullScreenPop .modal .modal-header {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: 0;
+  border-bottom: 0;
+  z-index: 1;
+}
+.FullScreenPop .modal .modal-body {
+  height: 100vh;
+  -webkit-overflow-scrolling: touch;
+  background-color: #333;
+}
+.FullScreenPop .modal-content {
+  border: 0;
+}
+.PortBgSection {
+  background-size: cover !important;
+  background-position: center center !important;
+}
+.PortBgStyle1 .row {
+  display: flex;
+  flex-flow: row wrap;
+}
+.PortBgStyle1 .row .col-md-6 {
+  height: 100vh;
+}
+.PortBgStyle1 .Por-md-images {
+  position: relative;
+}
+.PortBgStyle1 .Por-md-images .Port-img1 {
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+.Port-style2-page ul li .Port-style2-overlay img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.Por-md-contain h6 {
+  font-size: 40px;
+  color: #fff;
+  font-family: Proxima-Light;
+  margin-bottom: 20px;
+}
+.Por-md-contain h6 b {
+  font-weight: 400;
+  font-family: Proxima-Bold;
+}
+.Por-md-contain {
+  display: flex;
+  align-items: center;
+}
+.Por-md-contain p {
+  color: #fff;
+  font-family: Proxima-Light;
+  font-size: 16px;
+}
+.Por-md-contain article {
+  max-width: 550px;
+  margin-left: 15%;
+  margin-top: -15%;
+}
+.PortLinks a {
+  display: inline-block;
+  padding: 10px;
+  background: #000;
+  margin-right: 5px;
+  color: #fff;
+  letter-spacing: 2px;
+  border-right: 3px solid #fff;
+  margin: 5px 0;
+}
+.PortLinks {
+  margin-top: 30px;
+}
+.TechnologyTag span {
+  display: inline-block;
+  margin: 3px 0;
+  border-radius: 25px;
+  padding: 5px 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 11px;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.PortLinks a:hover {
+  padding-right: 30px;
+}
+.show_more_portfolio {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.show_more_portfolio img {
+  max-width: 35px;
+  position: relative;
+  top: 5px;
+  margin-left: 8px;
+}
+.PortfolioBannerText {
+  display: inline-block;
+  background: #fff;
+  padding: 15px 40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1169px) {
+  .Por-md-contain h6 {
+    font-size: 26px;
+  }
+  .Por-md-contain p {
+    font-size: 14px;
+  }
+  .modal-lg {
+    width: 100%;
+  }
+  .SectionHeading h1,
+  .SectionHeading h2,
+  .SectionHeading h4 {
+    font-size: 26px;
+  }
+  .mrb50 {
+    margin-bottom: 25px;
+  }
+  .Port-style2-page ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 50%;
+  }
+  .Port-style2-page {
+    padding: 40px 0;
+  }
+  .PortfolioBanner1 {
+    margin: 0 30px;
+    height: 280px;
+  }
+  .PortfolioBanner1 .container article h1 {
+    font-size: 32px;
+  }
+  .PortfolioBanner1 .container article h3 {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 0) and (max-width: 767px) {
+  .Por-md-contain h6 {
+    font-size: 26px;
+  }
+  .Por-md-contain p {
+    font-size: 14px;
+  }
+  .PortBgStyle1 .Por-md-images .Port-img1 {
+    position: relative;
+    right: 0;
+    width: 100%;
+  }
+  .PortBgStyle1 .row .col-md-6 {
+    height: auto;
+  }
+  .FullScreenPop .Por-md-contain article {
+    height: 100%;
+    max-height: 300px;
+    overflow: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+  }
+  .Por-md-contain article {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .modal-lg {
+    width: 100%;
+  }
+  .PortLinks {
+    margin: 15px 0;
+  }
+  .carousel-inner .amp-carousel-button-next {
+    right: 15px;
+  }
+  .carousel-inner .amp-carousel-button-prev {
+    right: 60px;
+  }
+  .SectionHeading h1,
+  .SectionHeading h2,
+  .SectionHeading h4 {
+    font-size: 18px;
+  }
+  .Port-style2-page ul li {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .Port-style2-page {
+    padding: 30px 0;
+  }
+  .Port-style2-page ul li .Port-style2-overlay .dev-btn {
+    margin-top: 15px;
+  }
+  .industry-btn-box {
+    margin-top: 0;
+  }
+  .industry-btn-box label {
+    display: none;
+  }
+  .PortFilter {
+    overflow: auto;
+    justify-content: initial;
+    margin-bottom: 0;
+  }
+  .PortfolioBanner1 {
+    margin: 0 30px;
+    height: 250px;
+  }
+  .PortfolioBanner1 .container article h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .PortfolioBanner1 .container article h3 {
+    font-size: 14px;
+  }
+}
+
